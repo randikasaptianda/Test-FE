@@ -9,8 +9,8 @@ import { GiTeamIdea } from 'react-icons/gi';
 import { HiOutlinePencilAlt } from 'react-icons/hi';
 import Textareas from '../form/Textareas';
 import CardForms from '../base/CardForms';
-import UploadFile from '../base/uploadFile';
 import Link from 'next/link';
+import UploadFile from '../base/uploadFile';
 
 export default function Kerusakan() {
   return (

@@ -4,11 +4,11 @@ import Card_Forms from '../base/Card_Forms';
 import Input from '../form/Input';
 // import Input from '../form/Input';
 import { BiArrowBack } from 'react-icons/bi';
-import UploadFile from '../base/uploadFile';
 import CardForms from '../base/CardForms';
 import { RiPoliceCarLine } from 'react-icons/ri';
 import { FaRegIdCard } from 'react-icons/fa';
 import Link from 'next/link';
+import UploadFile from '../base/uploadFile';
 
 export default function SimStnk() {
   return (
