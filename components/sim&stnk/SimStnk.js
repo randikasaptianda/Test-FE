@@ -51,21 +51,15 @@ export default function SimStnk() {
         </Card_Forms>
 
         <p className="text-l text-mn font-semibold mb-2">Foto SIM</p>
-        <CardForms className={`mb-2 flex justify-center`}>
-          <UploadFile />
-        </CardForms>
+        <CardForms className={`mb-2 flex justify-center`}>{/* <UploadFile /> */}</CardForms>
         <p className="text-l text-mn font-semibold mb-6">* Data pada SIM harus terlihat jelas.</p>
 
         <p className="text-l text-mn font-semibold mb-2">Foto STNK</p>
-        <CardForms className={`mb-2 flex justify-center`}>
-          <UploadFile />
-        </CardForms>
+        <CardForms className={`mb-2 flex justify-center`}>{/* <UploadFile /> */}</CardForms>
         <p className="text-l text-mn font-semibold mb-6">* Data pada STNK harus terlihat jelas.</p>
 
         <p className="text-l text-mn font-semibold mb-2">Foto KTP Tertanggung</p>
-        <CardForms className={`mb-2 flex justify-center`}>
-          <UploadFile />
-        </CardForms>
+        <CardForms className={`mb-2 flex justify-center`}>{/* <UploadFile /> */}</CardForms>
         <p className="text-l text-mn font-semibold mb-6">* Data pada KTP Tertanggung harus terlihat jelas.</p>
         <div className="flex mt-7 gap-7 justify-end">
           <Link href="/" passHref>

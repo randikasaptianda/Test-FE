@@ -54,22 +54,16 @@ export default function Kerusakan() {
           <HiOutlinePencilAlt className="text-greens w-7 h-7 mr-4" />
           <p className="text-l text-mn font-semibold mb-2">Foto Kerusakan 1</p>
         </div>
-        <CardForms className={`mb-7 flex justify-center`}>
-          <UploadFile />
-        </CardForms>
+        <CardForms className={`mb-7 flex justify-center`}>{/* <UploadFile /> */}</CardForms>
         <Textareas />
         <div className="flex mt-7">
           <HiOutlinePencilAlt className="text-greens w-7 h-7 mr-4" />
           <p className="text-l text-mn font-semibold mb-2">Foto Kerusakan 2</p>
         </div>
-        <CardForms className={`mb-7 flex justify-center`}>
-          <UploadFile />
-        </CardForms>
+        <CardForms className={`mb-7 flex justify-center`}>{/* <UploadFile /> */}</CardForms>
         <Textareas />
 
-        <CardForms className={`my-7 flex justify-center`}>
-          <UploadFile />
-        </CardForms>
+        <CardForms className={`my-7 flex justify-center`}>{/* <UploadFile /> */}</CardForms>
         <div className="p-3 mt-6 bg-greens rounded-lg flex justify-center cursor-pointer">
           <p className="text-l text-white font-semibold">Simpan</p>
         </div>
