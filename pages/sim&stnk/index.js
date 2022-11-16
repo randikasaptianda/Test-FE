@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import SimStnk from '../../components/sim&stnk/SimStnk';
 
 export default function index() {
