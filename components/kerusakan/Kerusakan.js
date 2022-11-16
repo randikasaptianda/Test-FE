@@ -54,7 +54,9 @@ export default function Kerusakan() {
           <HiOutlinePencilAlt className="text-greens w-7 h-7 mr-4" />
           <p className="text-l text-mn font-semibold mb-2">Foto Kerusakan 1</p>
         </div>
-        <CardForms className={`mb-7 flex justify-center`}>{/* <UploadFile /> */}</CardForms>
+        <CardForms className={`mb-7 flex justify-center`}>
+          <UploadFile />
+        </CardForms>
         <Textareas />
         <div className="flex mt-7">
           <HiOutlinePencilAlt className="text-greens w-7 h-7 mr-4" />
